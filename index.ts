@@ -3,7 +3,7 @@ import flatten, {
   FlatNode,
   FlatNodes,
   FlatText,
-} from "@suin/refractor-flatten";
+} from "@scm-manager/refractor-flatten";
 import type { RefractorElement, Text } from "refractor";
 
 type RefractorNode = RefractorElement | Text;

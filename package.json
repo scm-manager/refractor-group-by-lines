@@ -1,18 +1,18 @@
 {
-  "name": "@suin/refractor-group-by-lines",
+  "name": "@scm-manager/refractor-group-by-lines",
   "version": "1.0.0",
   "description": "A utility to embed line information to Refractor ASTs",
   "keywords": [
     "refractor",
     "refractor-utils"
   ],
-  "homepage": "https://github.com/suin/refractor-group-by-lines#readme",
+  "homepage": "https://github.com/scm-manager/refractor-group-by-lines#readme",
   "bugs": {
-    "url": "https://github.com/suin/refractor-group-by-lines/issues"
+    "url": "https://github.com/scm-manager/refractor-group-by-lines/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/suin/refractor-group-by-lines.git"
+    "url": "https://github.com/scm-manager/refractor-group-by-lines.git"
   },
   "license": "MIT",
   "author": "suin <suinyeze@gmail.com>",
@@ -118,6 +118,6 @@
     "refractor": "^4.5.0"
   },
   "dependencies": {
-    "@suin/refractor-flatten": "^1.0.0"
+    "@scm-manager/refractor-flatten": "^1.0.0"
   }
 }
