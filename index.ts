@@ -4,7 +4,10 @@ import flatten, {
   FlatNodes,
   FlatText,
 } from "@suin/refractor-flatten";
-import type { RefractorNode } from "refractor";
+import type { RefractorElement, Text } from "refractor";
+
+type RefractorNode = RefractorElement | Text;
+
 
 function groupByLines(nodes: RefractorNode[]): Array<LineElement> {
   return group(flatten(nodes));
